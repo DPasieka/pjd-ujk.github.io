@@ -230,11 +230,16 @@ a {
     background-color: white;
 }
 .osoba-dol {
-    line-height: 30px;
     text-align: center;
-    height: 150px;
+    height: 180px;
     background-color: #aaa;
 }
 .osoba-imie, .osoba-rola {
     line-height: 40px;
+}
+.osoba-imie {
+	font-size: 20px;
+}
+.osoba-rola {
+	font-size: 15px;
 }
