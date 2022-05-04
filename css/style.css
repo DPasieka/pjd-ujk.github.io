@@ -208,3 +208,33 @@ a {
 		text-align: center;
 	}
 }
+
+.zarzad{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: cadetblue;
+    min-height: 100vh;
+
+}
+
+.osoba{
+    flex-basis: 200px;
+    margin: 30px;
+}
+.osoba-gora{
+    height:200px;
+    width: 100%;
+    background-color: white;
+}
+.osoba-dol{
+    line-height: 30px;
+    text-align: center;
+    height: 150px;
+    background-color: #aaa;
+}
+.osoba-imie, .osoba-rola{
+    line-height: 40px;
+}
