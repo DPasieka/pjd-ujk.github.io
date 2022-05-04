@@ -209,7 +209,7 @@ a {
 	}
 }
 
-.zarzad{
+.zarzad {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -220,21 +220,21 @@ a {
 
 }
 
-.osoba{
+.osoba {
     flex-basis: 200px;
     margin: 30px;
 }
-.osoba-gora{
+.osoba-gora {
     height:200px;
     width: 100%;
     background-color: white;
 }
-.osoba-dol{
+.osoba-dol {
     line-height: 30px;
     text-align: center;
     height: 150px;
     background-color: #aaa;
 }
-.osoba-imie, .osoba-rola{
+.osoba-imie, .osoba-rola {
     line-height: 40px;
 }
