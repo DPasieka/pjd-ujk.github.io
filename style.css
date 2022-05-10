@@ -197,3 +197,56 @@ a{
       margin: 0 auto;
   }
   
+/*
+  Maciek
+*/
+
+#m_question{
+    font-family: 'Montserrat';
+    padding-top: 120px;
+    font-weight: 700;
+    font-size: 80px;
+    text-align: center;
+}
+#m_question_small{
+    padding: 10px 0 20px 0;
+    font-size: 40px;
+}
+.input{
+    text-align: center;
+}
+.text1{
+    background: #F9F9F9;
+    border: 1px solid #E6E6E6;
+    border-radius: 5px;
+    font-size: 30px;
+    width: 998px;
+    resize: none;
+    padding: 0;
+    margin: 0;
+}   
+#travisscott{
+    position: relative;
+    bottom: 13px;
+    background-color: #d42f2c;
+    border: solid #F9F9F9;;
+    border-radius: 5px;
+    width: 200px;
+    height: 36.2px;
+    font-weight: 400;
+    font-size: 14px;
+}
+#travisscott:hover{
+    background-color: #c31d1a;
+}
+.text2{
+    background: #F9F9F9;
+    border: 1px solid #E6E6E6;
+    border-radius: 5px;
+    font-size: 30px;
+    width: 1200px;
+    resize: none;
+}
+
+
+  
