@@ -286,3 +286,40 @@ a {
 .osoba-rola {
   font-size: 15px;
 }
+/*
+ Karina: Start
+*/
+.stopka {
+  display: flex;
+  background-color: lightgray;
+  height: auto;
+  padding: 5% 10% 10%;
+  
+}
+.lista {
+  text-align:left;
+  color: white;
+  width: 20%;
+  height: auto;
+  float: left;
+  text-shadow: 1px 1px 1px black;
+}
+.link {
+  color:white;
+  text-decoration:none;
+  background-color:transparent;
+}
+.link:hover {
+  color: gray;
+  text-decoration: none;
+}
+.lista-stopka{
+  text-transform:capitalize;
+}
+.naglowek {
+  color: white;
+  text-shadow: 1px 1px 5px black;
+}
+/*
+Karina: End
+*/
