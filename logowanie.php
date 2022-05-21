@@ -61,7 +61,7 @@
          </ul>
          <ul class="nav navbar-nav ml-auto w-100 justify-content-end">
             <li class="nav-item">
-               <a class="nav-link" href="logowanie.html">login</a>
+               <a class="nav-link" href="logowanie.php">login</a>
             </li>
             <li class="nav-item">
                <button class="bdola">Dolacz do nas ➡</button>
