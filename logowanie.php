@@ -1,3 +1,15 @@
+<?php
+
+	session_start();
+	
+	if ((isset($_SESSION['zalogowany'])) && ($_SESSION['zalogowany']==true))
+	{
+		header('Location: pulpit.php');
+		exit();
+	}
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -49,7 +61,7 @@
          </ul>
          <ul class="nav navbar-nav ml-auto w-100 justify-content-end">
             <li class="nav-item">
-               <a class="nav-link" href="logowanie.php">login</a>
+               <a class="nav-link" href="logowanie.html">login</a>
             </li>
             <li class="nav-item">
                <button class="bdola">Dolacz do nas ➡</button>
@@ -58,91 +70,22 @@
       </div>
    </nav>
    <!-- Kuba: End -->
-   <div class="center">
-      <div class="tlo">
-         <img src="img/tlo.svg" alt="tlo.svg" srcset="img/tlo.svg">
-      </div>
-      <div class="tekstmaly">
-         Oto projekt nasz
-      </div>
-      <div class="tekstduzy">
-         <b>Studentow UJK</b>
-      </div>
-      <div class="logo">
-         <img src="img/pjd.png" alt="pjd.png" srcset="img/pjd.png">
-      </div>
-      <div class="tekstmalyd">
-         Nie wiem co tu napisac
-      </div>
-      <div class="mati-przyciski">
-         <button class="mati-button-dolacz">Dolacz do nas!</button>
-         <button class="mati-button-wiecejinfo">Wiecej Informacji</button>
-      </div>
-      <div class="kwadraty">
-         <div class="kwa-lewy">
-            lewy
-         </div>
-         <div class="kwa-srd">
-            srd
-         </div>
-         <div class="kwa-prawy">
-            prawy
-         </div>
-      </div>
-   </div>
-   <!-- Rafał: Start -->
-   <div class="container-wydarzenia">
-   <div class="wydarzenia">
-      <div class="text">
-         <h2>Wydarzenia</h2>
-         </div>
-         <p class="wydarzenia-paragraph">Aktualnie dzielnie rozwijamy się w trzech wspomnianych kołach naukowych nasze postępy poglądowe znajdują się poniżej:</p>
-         </div>
-      <div class="event my-slider">
-      <ul>
-         <li><img class="slider-elements" src="img/slider/game_dev.png" alt="game_dev.png" srcset="img/slider/game_dev.png"></li>
-         <li><img class="slider-elements" src="img/slider/mach_learning.png" alt="mach_learning.png" srcset="img/slider/mach_learning.png"></li>
-      </ul>
-   </div>
-   </div>
-   <!-- Rafał: End -->
-   <div class="zarzad">
-      <div class="osoba">
-         <div class="osoba-gora">logo</div>
-         <div class="osoba-dol">
-            <h2 class="osoba-imie">Imie i nazwisko</h2>
-            <h3 class="osoba-rola">Pan Profesor itp</h3>
-         </div>
-      </div>
-      <div class="osoba">
-         <div class="osoba-gora">logo</div>
-         <div class="osoba-dol">
-            <h2 class="osoba-imie">Imie i nazwisko</h2>
-            <h3 class="osoba-rola">Pan Profesor itp</h3>
-         </div>
-      </div>
-      <div class="osoba">
-         <div class="osoba-gora">logo</div>
-         <div class="osoba-dol">
-            <h2 class="osoba-imie">Imie i nazwisko</h2>
-            <h3 class="osoba-rola">Pan Profesor itp</h3>
-         </div>
-      </div>
-      <div class="osoba">
-         <div class="osoba-gora">logo</div>
-         <div class="osoba-dol">
-            <h2 class="osoba-imie">Imie i nazwisko</h2>
-            <h3 class="osoba-rola">Pan Profesor itp</h3>
-         </div>
-      </div>
-      <div class="osoba">
-         <div class="osoba-gora">logo</div>
-         <div class="osoba-dol">
-            <h2 class="osoba-imie">Imie i nazwisko</h2>
-            <h3 class="osoba-rola">Pan Profesor itp</h3>
-         </div>
-      </div>
-   </div>
+   <div class="form-box">
+      <h1 class="form-box__title">Panel logowania</h1>
+        <p class="form-box__info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate ducimus enim consequatur ullam ab 
+         accusamus repellat quod autem totam dolores! Dicta autem, fugiat delectus quo provident nam officia maxime doloribus!</p>
+        <form class="form-box__form form" action="zaloguj.php" method="post">
+          <input class="form__text-input" type="text" name="login" id="e-mail" placeholder="Podaj login">
+          <input class="form__text-input" type="password" name="haslo" id="password" placeholder="Podaj hasło">
+         <?php
+          if(isset($_SESSION['blad']))	echo $_SESSION['blad'];
+          unset($_SESSION['blad']);
+         ?>
+          <button class="form__button" type="submit">Zaloguj się</button>
+    
+         <p class="form-box__info"><a href="register.php">Utwórz nowe konto</a></p>
+        </form>
+    </div>
    <!-- Karina: Start -->
    <div class="stopka">
       <div class="flex-container">
