@@ -83,7 +83,7 @@
          ?>
           <button class="form__button" type="submit">Zaloguj się</button>
     
-         <p class="form-box__info"><a href="register.php">Utwórz nowe konto</a></p>
+         <p class="form-box__info"><a href="rejestracja.php">Utwórz nowe konto</a></p>
         </form>
     </div>
    <!-- Karina: Start -->

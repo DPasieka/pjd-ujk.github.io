@@ -235,7 +235,7 @@
 			echo $_SESSION['fr_username'];
 			unset($_SESSION['fr_username']);
 		}
-	?>" name="username" placeholder="username" class="form__text-input">
+	?>" name="username" placeholder="Nazwa użytkownika" class="form__text-input">
 	
 	<?php
 		if (isset($_SESSION['e_username']))
@@ -251,7 +251,7 @@
 			echo $_SESSION['fr_email'];
 			unset($_SESSION['fr_email']);
 		}
-	?>" name="email" placeholder="e-mail" class="form__text-input">
+	?>" name="email" placeholder="E-mail" class="form__text-input">
 	
 	<?php
 		if (isset($_SESSION['e_email']))
@@ -267,7 +267,7 @@
 			echo $_SESSION['fr_haslo1'];
 			unset($_SESSION['fr_haslo1']);
 		}
-	?>" name="haslo1" placeholder="password" class="form__text-input">
+	?>" name="haslo1" placeholder="Hasło" class="form__text-input">
 	
 	<?php
 		if (isset($_SESSION['e_haslo']))
@@ -283,7 +283,7 @@
 			echo $_SESSION['fr_haslo2'];
 			unset($_SESSION['fr_haslo2']);
 		}
-	?>" name="haslo2" placeholder="retype password" class="form__text-input">
+	?>" name="haslo2" placeholder="Powtórz hasło" class="form__text-input">
 	
 	<label class="terms">
 		<input type="checkbox" name="regulamin" <?php
@@ -315,7 +315,7 @@
     
 	
 	<input type="submit" value="Dalej" class="form__button">
-	<p class="form-box__info"><a href="index.php">Masz już konto? Zaloguj się!</a></p>
+	<p class="form-box__info"><a href="logowanie.php">Masz już konto? Zaloguj się!</a></p>
     </form>
 </div>
 
