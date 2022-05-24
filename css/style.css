@@ -1,3 +1,4 @@
+/*Mateusz*/
 body {
   color: white;
   height: 1000px;
@@ -5,6 +6,9 @@ body {
   font-family: FreeMono, monospace;
   letter-spacing: 0.3px;
   font-weight: 5px;
+}
+.click{
+  cursor: pointer;
 }
 
 .Home,
@@ -144,6 +148,26 @@ a {
   font-family: FreeMono, monospace;
   text-decoration: none;
 }
+#myBtn {
+  display: none; 
+  position: fixed;
+  bottom: 20px; 
+  right: 30px; 
+  z-index: 99; 
+  border: none; 
+  outline: none; 
+  background-color: red; 
+  color: white; 
+  cursor: pointer; 
+  padding: 15px;
+  border-radius: 10px;
+  font-size: 18px;
+}
+
+#myBtn:hover {
+  background-color: #555; 
+}
+
 
 /* Rafał */
 .container-wydarzenia {
@@ -181,6 +205,18 @@ a {
 /*
  Kuba: Start
 */
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  font-size: 30px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.6em;
+}
+
+
 @media (min-width: 768px) {
   .navbar-brand.abs {
     position: absolute;
@@ -188,6 +224,13 @@ a {
     left: 50%;
     transform: translateX(-50%);
     text-align: center;
+  }
+}
+
+@media (max-width: 800px) {
+  .flex-container {
+    flex-direction: column;
+    font-size: 1.1em;
   }
 }
 
@@ -286,3 +329,46 @@ a {
 .osoba-rola {
   font-size: 15px;
 }
+/*
+ Karina: Start
+*/
+.stopka {
+  background-color: lightgray;
+  height: auto;
+  padding: 5% 10% 10%;
+  
+}
+.lista {
+  display: inline-flex;
+  text-align:left;
+  color: white;
+  height: auto;
+  float: left;
+  text-shadow: 1px 1px 1px black;
+  width: 40%;
+  
+  /*Kuba: Start*/
+  flex-direction: column;
+  padding: 10px;
+  flex: 50%;
+  /*Kuba: End*/
+}
+.link {
+  color:white;
+  text-decoration:none;
+  background-color:transparent;
+}
+.link:hover {
+  color: gray;
+  text-decoration: none;
+}
+.lista-stopka{
+  text-transform:capitalize;
+}
+.naglowek {
+  color: white;
+  text-shadow: 1px 1px 5px black;
+}
+/*
+Karina: End
+*/
