@@ -1,3 +1,4 @@
+/*Mateusz*/
 body {
   color: white;
   height: 1000px;
@@ -5,6 +6,9 @@ body {
   font-family: FreeMono, monospace;
   letter-spacing: 0.3px;
   font-weight: 5px;
+}
+.click{
+  cursor: pointer;
 }
 
 .Home,
@@ -144,16 +148,37 @@ a {
   font-family: FreeMono, monospace;
   text-decoration: none;
 }
+#myBtn {
+  display: none; 
+  position: fixed;
+  bottom: 20px; 
+  right: 30px; 
+  z-index: 99; 
+  border: none; 
+  outline: none; 
+  background-color: red; 
+  color: white; 
+  cursor: pointer; 
+  padding: 15px;
+  border-radius: 10px;
+  font-size: 18px;
+}
+
+#myBtn:hover {
+  background-color: #555; 
+}
+
 
 /* Rafał */
+.container-wydarzenia {
+  background-color: #a6a6a6;
+  padding-bottom: 1%;
+}
 .wydarzenia {
   margin-top: 10%;
   text-align: center;
-  background-color: #a6a6a6;
   width: 100%;
-  padding-bottom: 10%;
 }
-
 .text {
   padding-top: 5%;
   width: 40%;
@@ -168,14 +193,30 @@ a {
   text-shadow: 1px 1px 1px black;
 }
 .slider-elements {
-  width: 40%;
+  width: 800px;
+  height: 600px;
+  padding-bottom: 5%;
+}
+.event {
   text-align: center;
+  background-color: #a6a6a6;
+}
+
+/*
+ Kuba: Start
+*/
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  font-size: 30px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.6em;
 }
 
 
-/*
- Kuba
-*/
 @media (min-width: 768px) {
   .navbar-brand.abs {
     position: absolute;
@@ -185,15 +226,20 @@ a {
     text-align: center;
   }
 }
-
+.zarzad-wrapper{
+  background-color: cadetblue;
+  min-height: 100vh;
+}
+.zarzad-text{
+  text-align: center;
+}
 .zarzad {
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  background-color: cadetblue;
-  min-height: 100vh;
+  
 }
 
 .osoba {
@@ -212,11 +258,14 @@ a {
 }
 .osoba-imie,
 .osoba-rola {
-  line-height: 40px;
+  margin-bottom: 20px;
 }
 .osoba-imie {
   font-size: 20px;
 }
 .osoba-rola {
   font-size: 15px;
+}
+.osoba-img{
+  max-width: 150px;
 }

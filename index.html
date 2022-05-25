@@ -6,138 +6,366 @@
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <title>PJD</title>
-   <link rel="stylesheet" href="css/style.css">
-   <link rel="shortcut icon" href="img/pjd.png">
-   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
-      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-   <link rel="stylesheet" href="unslider/unslider-dots.css">
-   <link rel="stylesheet" href="unslider/unslider.css">
-   <script src="scripts/jquery-3.0.0.min.js"></script>
-   <script src="scripts/unslider-min.js"></script>
-   <script src="scripts/script.js"></script>
+   <link rel="stylesheet" href="style.css">
+   <link rel="shortcut icon" href="pjd.png">
 </head>
-<!-- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-   integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script> -->
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"
-   integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
-   integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
 <body>
-   <nav class="navbar navbar-light navbar-expand-md bg-faded justify-content-center">
-      <a href="/" class="navbar-brand d-flex w-50 mr-auto"><b> UJK</b></a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsingNavbar3">
-         <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="navbar-collapse collapse w-100" id="collapsingNavbar3">
-         <ul class="navbar-nav w-100 justify-content-center">
-            <li class="nav-item active">
-               <a class="nav-link" href="#home">Home</a>
-            </li>
-            <li class="nav-item">
-               <a class="nav-link" href="#produkt">Produkt</a>
-            </li>
-            <li class="nav-item">
-               <a class="nav-link" href="#ceny">Ceny</a>
-            </li>
-            <li class="nav-item">
-               <a class="nav-link" href="#kontakt">Kontakt</a>
-            </li>
-         </ul>
-         <ul class="nav navbar-nav ml-auto w-100 justify-content-end">
-            <li class="nav-item">
-               <a class="nav-link" href="logowanie.html">login</a>
-            </li>
-            <li class="nav-item">
-               <button class="bdola">Dolacz do nas ➡</button>
-            </li>
-         </ul>
-      </div>
-   </nav>
-   <div class="center">
-      <div class="tlo">
-         <img src="img/tlo.svg" alt="tlo.svg" srcset="img/tlo.svg">
-      </div>
-      <div class="tekstmaly">
-         Oto projekt nasz
-      </div>
-      <div class="tekstduzy">
-         <b>Studentow UJK</b>
-      </div>
-      <div class="logo">
-         <img src="img/pjd.png" alt="pjd.png" srcset="img/pjd.png">
-      </div>
-      <div class="tekstmalyd">
-         Nie wiem co tu napisac
-      </div>
-      <div class="mati-przyciski">
-         <button class="mati-button-dolacz">Dolacz do nas!</button>
-         <button class="mati-button-wiecejinfo">Wiecej Informacji</button>
-      </div>
-      <div class="kwadraty">
-         <div class="kwa-lewy">
-            lewy
+   <<<<<<< HEAD <div class="containerme">
+      <div class="top">
+         <div class="top-lewa">
+            <b> UJK</b>
          </div>
-         <div class="kwa-srd">
-            srd
+         <div class="top-srodek">
+            =======
+            <!-- Kuba: Start -->
+            <nav class="navbar navbar-light navbar-expand-md bg-faded justify-content-center">
+               <a href="/" class="navbar-brand d-flex w-50 mr-auto"><b> UJK</b></a>
+               <button class="navbar-toggler collapsed" type="button" data-toggle="collapse"
+                  data-target="#collapsingNavbar3">
+                  <span class="toggler-icon top-bar"></span>
+                  <span class="toggler-icon middle-bar"></span>
+                  <span class="toggler-icon bottom-bar"></span>
+               </button>
+               <div class="navbar-collapse collapse w-100" id="collapsingNavbar3">
+                  <ul class="navbar-nav w-100 justify-content-center">
+                     <li class="nav-item active">
+                        <a class="nav-link click" onclick="scroolHome()">Home</a>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link click" onclick="scroolWydarzenia()">Produkt</a>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link click" onclick="scroolCeny()">Ceny</a>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link click" onclick="scroolKontakt()">Kontakt</a>
+                     </li>
+                  </ul>
+                  <ul class="nav navbar-nav ml-auto w-100 justify-content-end">
+                     <li class="nav-item">
+                        <a class="nav-link" href="logowanie.php">login</a>
+                     </li>
+                     <li class="nav-item">
+                        <button class="bdola">Dolacz do nas ➡</button>
+                     </li>
+                  </ul>
+               </div>
+            </nav>
+            <!-- Kuba: End -->
+            <div class="center">
+               <div class="tlo">
+                  <img src="img/tlo.svg" alt="tlo.svg" srcset="img/tlo.svg">
+               </div>
+               <div class="tekstmaly">
+                  Oto projekt nasz
+               </div>
+               <div class="tekstduzy">
+                  <b>Studentow UJK</b>
+               </div>
+               <div class="logo">
+                  <img src="img/pjd.png" alt="pjd.png" srcset="img/pjd.png">
+               </div>
+               <div class="tekstmalyd">
+                  Nie wiem co tu napisac
+               </div>
+               <div class="mati-przyciski">
+                  <button class="mati-button-dolacz">Dolacz do nas!</button>
+                  <button class="mati-button-wiecejinfo">Wiecej Informacji</button>
+               </div>
+               <div class="kwadraty">
+                  <div class="kwa-lewy">
+                     lewy
+                  </div>
+                  <div class="kwa-srd">
+                     srd
+                  </div>
+                  <div class="kwa-prawy">
+                     prawy
+                  </div>
+               </div>
+            </div>
+            <!-- Rafał: Start -->
+            <div class="container-wydarzenia">
+               <div class="wydarzenia">
+                  <div class="text">
+                     <h2>Wydarzenia</h2>
+                     <<<<<<< HEAD </div> <p class="wydarzenia-paragraph">Aktualnie dzielnie rozwijamy się w trzech
+                        wspomnianych kołach naukowych nasze
+                        postępy poglądowe znajdują się poniżej:</p>
+                        <div class="event my-slider">
+                           <ul>
+                              <li><img class="slider-elements" src="img/slider/game_dev.png" alt="game_dev.png"
+                                    srcset="img/slider/game_dev.png"></li>
+                              <li><img class="slider-elements" src="img/slider/mach_learning.png"
+                                    alt="mach_learning.png" srcset="img/slider/mach_learning.png"></li>
+                           </ul>
+                        </div>
+                        =======
+                  </div>
+                  <p class="wydarzenia-paragraph">Aktualnie dzielnie rozwijamy się w trzech wspomnianych kołach
+                     naukowych nasze postępy poglądowe znajdują się poniżej:</p>
+               </div>
+               <div class="event my-slider">
+                  <ul>
+                     <li><img class="slider-elements" src="img/slider/game_dev.png" alt="game_dev.png"
+                           srcset="img/slider/game_dev.png"></li>
+                     <li><img class="slider-elements" src="img/slider/mach_learning.png" alt="mach_learning.png"
+                           srcset="img/slider/mach_learning.png"></li>
+                  </ul>
+               </div>
+               >>>>>>> f0d8b9cbe2fa748889ebd6a3804ab95b67759ddc
+            </div>
          </div>
-         <div class="kwa-prawy">
-            prawy
+         <!-- Rafał: End -->
+         <!-- Michał start  -->
+         <div class="zarzad-wrapper">
+            <h1 class="zarzad-text">Zarząd</h1>
+            <div class="zarzad">
+
+               <div class="osoba">
+                  <div class="osoba-gora"><img class="osoba-img" src="img/logo/DariuszPasieka.jpg" alt=""></div>
+                  <div class="osoba-dol">
+                     <h2 class="osoba-imie">mgr Dariusz Pasieka</h2>
+                     <h3 class="osoba-rola">Opiekun Koła</h3>
+                     <h3 class="osoba-rola">Discord: DEID#2570</h3>
+                     <h3 class="osoba-rola">dariusz.pasieka@ujk.edu.pl</h3>
+                  </div>
+               </div>
+               <div class="osoba">
+                  <div class="osoba-gora"><img class="osoba-img" src="img/logo/BartlomiejCzech.jpg" alt=""></div>
+                  <div class="osoba-dol">
+                     <h2 class="osoba-imie">Bartłomiej Czech</h2>
+                     <h3 class="osoba-rola">Przewodniczący koła</h3>
+                     <h3 class="osoba-rola">Discord: Czechu#0338</h3>
+                     <h3 class="osoba-rola"><a href="https://github.com/Czechu7" class="osoba-link">Github</a></h3>
+                  </div>
+               </div>
+               <div class="osoba">
+                  <div class="osoba-gora"><img class="osoba-img" src="img/logo/PatrykBartocha.jpg" alt=""></div>
+                  <div class="osoba-dol">
+                     <h2 class="osoba-imie">Patryk Bartocha</h2>
+                     <h3 class="osoba-rola">Skarbnik</h3>
+                     <h3 class="osoba-rola">Discord: Patryk Bartocha#9852</h3>
+                     <h3 class="osoba-rola"><a href="https://github.com/Patriko007B" class="osoba-link">Github</a></h3>
+                  </div>
+               </div>
+               <div class="osoba">
+                  <div class="osoba-gora"><img class="osoba-img" src="img/logo/KonradHozynka.png" alt=""></div>
+                  <div class="osoba-dol">
+                     <h2 class="osoba-imie">Konrad Hożynka</h2>
+                     <h3 class="osoba-rola">Sekretarz</h3>
+                     <h3 class="osoba-rola">Discord: XN_Chrzanu#0167</h3>
+                     <h3 class="osoba-rola"><a href="https://github.com/Chrzanu" class="osoba-link">Github</a></h3>
+                  </div>
+               </div>
+               <div class="osoba">
+                  <div class="osoba-gora"><img class="osoba-img" src="img/logo/MaciejPabis.jpg" alt=""></div>
+                  <div class="osoba-dol">
+                     <h2 class="osoba-imie">Maciej Pabis</h2>
+                     <h3 class="osoba-rola">Zastępca</h3>
+                     <h3 class="osoba-rola">Discord: PanMaciej#0252</h3>
+                     <h3 class="osoba-rola"><a href="https://www.instagram.com/pmcey_/" class="osoba-link">Instagram</a>
+                     </h3>
+                  </div>
+               </div>
+               <div class="osoba">
+                  <div class="osoba-gora"><img class="osoba-img" src="img/logo/GrzegorzGora.jpg" alt=""></div>
+                  <div class="osoba-dol">
+                     <h2 class="osoba-imie">Grzegorz Góra</h2>
+                     <h3 class="osoba-rola">Zastępca</h3>
+                     <h3 class="osoba-rola">Discord: Stalkero#0809</h3>
+                     <h3 class="osoba-rola"><a href="https://github.com/Stalkero" class="osoba-link">Github</a></h3>
+                  </div>
+               </div>
+            </div>
          </div>
+         <!-- Michał end  -->
+         <!-- Karina: Start -->
+         <div class="stopka">
+            <div class="flex-container">
+               <div class="lista">
+                  <h5 class="naglowek">Company info</h5>
+                  <dl class="lista-stopka">
+                     <dt><a class="link" href="" target="_self">about us</a></dt>
+                     <dt><a class="link" href="" target="_self">carrier</a></dt>
+                     <dt><a class="link" href="" target="_self">about us</a></dt>
+                     <dt><a class="link" href="" target="_self">carrier</a></dt>
+                  </dl>
+               </div>
+               <div class="lista">
+                  <h5 class="naglowek">Legal</h5>
+                  <dl class="lista-stopka">
+                     <dt><a class="link" href="" target="_self">about us</a></dt>
+                     <dt><a class="link" href="" target="_self">carrier</a></dt>
+                     <dt><a class="link" href="" target="_self">about us</a></dt>
+                     <dt><a class="link" href="" target="_self">carrier</a></dt>
+                  </dl>
+               </div>
+               <div class="lista">
+                  <h5 class="naglowek">Features</h5>
+                  <dl class="lista-stopka">
+                     <dt><a class="link" href="" target="_self">business</a></dt>
+                     <dt><a class="link" href="" target="_self">unlimited support</a></dt>
+                     <dt><a class="link" href="" target="_self">business</a></dt>
+                     <dt><a class="link" href="" target="_self">unlimited support</a></dt>
+                  </dl>
+               </div>
+               <div class="lista">
+                  <h5 class="naglowek">Resources</h5>
+                  <dl class="lista-stopka">
+                     <dt><a class="link" href="" target="_self">watch demo</a></dt>
+                     <dt><a class="link" href="" target="_self">customers</a></dt>
+                     <dt><a class="link" href="" target="_self">watch demo</a></dt>
+                     <dt><a class="link" href="" target="_self">customers</a></dt>
+                  </dl>
+               </div>
+               <div class="lista">
+                  <h5 class="naglowek">Get in Touch</h5>
+                  <dl class="lista-stopka">
+                     <dt><a class="link" href="" target="_self">jakis numer telefonu</a></dt>
+                     <dt><a class="link" href="" target="_self">jakis adres</a></dt>
+                     <dt><a class="link" href="" target="_self">jakis numer telefonu</a></dt>
+                     <dt><a class="link" href="" target="_self">jakis adres</a></dt>
+                  </dl>
+               </div>
+            </div>
+         </div>
+
+         <!-- Karina: End -->
+         <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+</body>
+>>>>>>> 6c4b99b179775515387796492017d276383b25fc
+
+<div class="Home">
+   <a href="home.html"><b>Home</b></a>
+</div>
+<div class="Produkt">
+   <a href="produkt.html"><b>Produkt</b></a>
+</div>
+<div class="Ceny">
+   <a href="ceny.html"><b>Ceny</b></a>
+</div>
+<div class="Kontakt">
+   <a href="kontakt.html"><b>Kontakt</b></a>
+</div>
+</div>
+
+<div class="top-prawa">
+   <div class="Login">
+      <a href="logowanie.html"><b>Login</b></a>
+   </div>
+   <div class="Dolacz">
+      <button class="bdola">Dolacz do nas ➡</button>
+   </div>
+
+</div>
+</div>
+<div class="center">
+   <div class="tlo">
+      <img src="tlo.svg" alt="tlo.svg" srcset="tlo.svg">
+   </div>
+
+   <div class="tekstmaly">
+      Oto projekt nasz
+   </div>
+   <div class="tekstduzy">
+      <b>Studentow UJK</b>
+   </div>
+   <div class="logo">
+      <img src="pjd.png" alt="pjd.png" srcset="pjd.png">
+   </div>
+   <div class="tekstmalyd">
+      Nie wiem co tu napisac
+   </div>
+   <div class="mati-przyciski">
+      <button class="mati-button-dolacz">Dolacz do nas!</button>
+      <button class="mati-button-wiecejinfo">Wiecej Informacji</button>
+   </div>
+   <div class="kwadraty">
+      <div class="kwa-lewy">
+         lewy
+      </div>
+      <div class="kwa-srd">
+         srd
+      </div>
+      <div class="kwa-prawy">
+         prawy
       </div>
    </div>
-   <!-- Rafał: Start -->
-   <div class="wydarzenia">
-      <div class="text">
-         <h2>Wydarzenia</h2>
-         </div>
-         <p class="wydarzenia-paragraph">Aktualnie dzielnie rozwijamy się w trzech wspomnianych kołach naukowych nasze postępy poglądowe znajdują się poniżej:</p>
-         <div class="event my-slider">
-            <ul>
-               <li><img class="slider-elements" src="img/slider/game_dev.png" alt="game_dev.png" srcset="img/slider/game_dev.png"></li>
-               <li><img class="slider-elements" src="img/slider/mach_learning.png" alt="mach_learning.png" srcset="img/slider/mach_learning.png"></li>
-            </ul>
-         </div>
+</div>
+
+
+
+
+
+
+
+// Karina
+
+
+<div class="container">
+   <div class="text">
+      <div class="one">
+         <h6>
+            Kolorek jest i git
+            A kto dzisiaj pluł i łapał?
+            A kto się w głowę podrapał?
+            A kto dziś zgubił ka
+         </h6>
+      </div>
+      <div class="two">
+         <h2>
+            Wydarzenia i aktualności co się wyprawia
+            A kto dzisiaj pluł i łapał?
+            A kto się w głowę podrapał?
+            A kto dziś zgubił ka
+         </h2>
+      </div>
+      <div class="three">
+         <p>
+            "O, wypraszam to sobie!
+            Jak to? Ja nic nie robię?
+            A kto siedzi
+            A kto dzisiaj pluł i łapał?
+            A kto się w głowę podrapał?
+            A kto dziś zgubił kana tapczanie?
+            A kto zjadł pierwsze śniadanie?
+            A kto dzisiaj pluł i łapał?
+            A kto się w głowę podrapał?
+            A kto dziś zgubił kalosze?
+            O - o! Proszę!"
+         </p>
+         <p>
+            Nowy paragraf testowy utworzony przez Rafała.
+         </p>
+      </div>
+
+   </div>
+
+</div>
+
+<!-- Maciek -->
+
+<div class="container">
+   <div id="m_question">
+      Masz pytanie?
+      <div id="m_question_small">
+         Zadaj je nam!
       </div>
    </div>
-   <!-- Rafał: End -->
-   <div class="zarzad">
-      <div class="osoba">
-         <div class="osoba-gora">logo</div>
-         <div class="osoba-dol">
-            <h2 class="osoba-imie">Imie i nazwisko</h2>
-            <h3 class="osoba-rola">Pan Profesor itp</h3>
-         </div>
+   <form>
+      <div class="input">
+         <textarea class="text1" id="text" name="text" rows="1" placeholder="Mój mail"></textarea>
+         <button id="travisscott">Wyślij</button>
       </div>
-      <div class="osoba">
-         <div class="osoba-gora">logo</div>
-         <div class="osoba-dol">
-            <h2 class="osoba-imie">Imie i nazwisko</h2>
-            <h3 class="osoba-rola">Pan Profesor itp</h3>
-         </div>
+      <div class="input">
+         <textarea class="text2" id="text" name="text" rows="5" placeholder="Mam pytanie..."></textarea>
       </div>
-      <div class="osoba">
-         <div class="osoba-gora">logo</div>
-         <div class="osoba-dol">
-            <h2 class="osoba-imie">Imie i nazwisko</h2>
-            <h3 class="osoba-rola">Pan Profesor itp</h3>
-         </div>
-      </div>
-      <div class="osoba">
-         <div class="osoba-gora">logo</div>
-         <div class="osoba-dol">
-            <h2 class="osoba-imie">Imie i nazwisko</h2>
-            <h3 class="osoba-rola">Pan Profesor itp</h3>
-         </div>
-      </div>
-      <div class="osoba">
-         <div class="osoba-gora">logo</div>
-         <div class="osoba-dol">
-            <h2 class="osoba-imie">Imie i nazwisko</h2>
-            <h3 class="osoba-rola">Pan Profesor itp</h3>
-         </div>
-      </div>
-   </div>
+   </form>
+</div>
+
+
 </body>
 
 </html>
