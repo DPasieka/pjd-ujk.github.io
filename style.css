@@ -249,4 +249,46 @@ a{
 }
 
 
-  
+/* Michał  */
+.zarzad-wrapper{
+    background-color: cadetblue;
+    min-height: 100vh;
+  }
+  .zarzad-text{
+    text-align: center;
+  }
+  .zarzad {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .osoba {
+    flex-basis: 200px;
+    margin: 30px;
+  }
+  .osoba-gora {
+    height: 200px;
+    width: 100%;
+    background-color: white;
+  }
+  .osoba-dol {
+    text-align: center;
+    height: 180px;
+    background-color: #aaa;
+  }
+  .osoba-imie,
+  .osoba-rola {
+    margin-bottom: 20px;
+  }
+  .osoba-imie {
+    font-size: 20px;
+  }
+  .osoba-rola {
+    font-size: 15px;
+  }
+  .osoba-img{
+    width: 100px;
+    height: 100px;
+  }
