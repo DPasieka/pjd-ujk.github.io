@@ -8,10 +8,14 @@
    <title>PJD</title>
    <link rel="stylesheet" href="style.css">
    <link rel="shortcut icon" href="pjd.png">
+
 </head>
 
 <body>
-   <<<<<<< HEAD <div class="containerme">
+   
+   <script src="/scripts/walidacja-maila.js"></script>
+
+   <div class="containerme">
       <div class="top">
          <div class="top-lewa">
             <b> UJK</b>
@@ -90,7 +94,7 @@
                <div class="wydarzenia">
                   <div class="text">
                      <h2>Wydarzenia</h2>
-                     <<<<<<< HEAD </div> <p class="wydarzenia-paragraph">Aktualnie dzielnie rozwijamy się w trzech
+    </div> <p class="wydarzenia-paragraph">Aktualnie dzielnie rozwijamy się w trzech
                         wspomnianych kołach naukowych nasze
                         postępy poglądowe znajdują się poniżej:</p>
                         <div class="event my-slider">
@@ -114,7 +118,6 @@
                            srcset="img/slider/mach_learning.png"></li>
                   </ul>
                </div>
-               >>>>>>> f0d8b9cbe2fa748889ebd6a3804ab95b67759ddc
             </div>
          </div>
          <!-- Rafał: End -->
@@ -236,7 +239,6 @@
          <!-- Karina: End -->
          <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
 </body>
->>>>>>> 6c4b99b179775515387796492017d276383b25fc
 
 <div class="Home">
    <a href="home.html"><b>Home</b></a>
@@ -355,15 +357,24 @@
          Zadaj je nam!
       </div>
    </div>
-   <form>
-      <div class="input">
-         <textarea class="text1" id="text" name="text" rows="1" placeholder="Mój mail"></textarea>
-         <button id="travisscott">Wyślij</button>
+
+   <form class="form" method="post" id="form">
+      <div class="form-row">
+          <label for="name">Email</label>
+          <input type="email" name="email" id="email" class="text1" placeholder="Mój mail">
       </div>
-      <div class="input">
-         <textarea class="text2" id="text" name="text" rows="5" placeholder="Mam pytanie..."></textarea>
+      <div class="form-message">
+         <div class="input">
+            <textarea class="text2" id="text" name="text" rows="5" placeholder="Mam pytanie..."></textarea>
+         </div>
       </div>
-   </form>
+      <div class="form-row">
+          <button type="submit" class="button submit-btn" id="travisscott">
+              Wyślij
+          </button>
+      </div>
+  </form>
+
 </div>
 
 
